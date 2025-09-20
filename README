@@ -1,21 +1,21 @@
-#Advanced Machine Learning Applications in Healthcare
+# Advanced Machine Learning Applications in Healthcare
 
 This repository contains a series of case studies applying advanced machine learning techniques to solve complex, real-world problems in the healthcare industry. The project is an assignment for the "Artificial Intelligence in Healthcare" (AI4143) course, focusing on predictive modeling, medical image analysis, genetic profiling, and operational efficiency.
 
 The primary objective is to simulate healthcare scenarios where ML can provide actionable insights, from predicting disease outcomes to reducing hospital readmissions. Each case study involves data preprocessing, model implementation, evaluation, and interpretation.
 
-#Case Studies Overview
+# Case Studies Overview
 
-##Case 1: Predicting Disease Outcomes from Patient Data##
+## Case 1: Predicting Disease Outcomes from Patient Data##
 
-##Case 2: Automating Diagnosis from Medical Images##
+## Case 2: Automating Diagnosis from Medical Images##
 
-##Case 3: Genetic Risk Profiling##
+## Case 3: Genetic Risk Profiling##
 
-##Case 4: Reducing Hospital Readmissions##
+## Case 4: Reducing Hospital Readmissions##
 
 
-#Case 1: Predicting Disease Outcomes from Patient Data 🩺
+# Case 1: Predicting Disease Outcomes from Patient Data 🩺
 
 Objective: To develop and evaluate classification models that predict the likelihood of a patient developing a particular disease based on their medical history and demographic data.
 
@@ -28,7 +28,7 @@ Algorithms: Logistic Regression, Decision Trees, and Random Forests.
 Key Steps: The process includes thorough data cleaning, feature engineering using OneHotEncoder for categorical variables and StandardScaler for numerical ones, and model evaluation using metrics like accuracy and F1-score. Feature importance was extracted from the Random Forest model to identify key risk factors.
 
 
-#Case 2: Automating Diagnosis from Medical Images 🖼️
+# Case 2: Automating Diagnosis from Medical Images 🖼️
 
 Objective: To build a deep learning model to automatically classify medical images (e.g., X-rays), assisting medical professionals in diagnostics.
 
@@ -41,7 +41,7 @@ Algorithm: A CNN, likely using a pre-trained architecture like VGG or ResNet for
 Key Steps: The implementation involves using ImageDataGenerator for preprocessing and data augmentation to improve model generalization. The model is compiled and trained to distinguish between different conditions shown in the images. Evaluation is performed using accuracy and a confusion matrix.
 
 
-#Case 3: Genetic Risk Profiling 🧬
+# Case 3: Genetic Risk Profiling 🧬
 
 Objective: To identify patient groups with similar genetic profiles using unsupervised learning and to identify genetic markers that may indicate a high risk for specific conditions.
 
@@ -54,7 +54,7 @@ Algorithms: K-Means Clustering, Hierarchical Clustering, and DBSCAN.
 Key Steps: The notebook involves extensive preprocessing of mixed data types, followed by the application of clustering models. The quality of clusters is assessed using metrics like the Silhouette Score. Finally, Principal Component Analysis (PCA) is used for dimensionality reduction to visualize the identified patient clusters and compare them against the true disorder labels.
 
 
-#Case 4: Reducing Hospital Readmissions 🏥
+# Case 4: Reducing Hospital Readmissions 🏥
 
 Objective: To predict patient readmission risk and length of stay, and to identify atypical patient records that could signify a high risk of readmission.
 
@@ -62,20 +62,20 @@ Dataset: hospital_readmissions.csv
 
 Methodology: This comprehensive case study employs a mix of supervised and unsupervised learning techniques.
 
-###Supervised Algorithms:
+### Supervised Algorithms:
 
 Classification: Logistic Regression, Random Forests, and Gradient Boosting Machines (GBMs) to predict 30-day readmission risk.
 
 Regression: Linear Regression to predict the length of stay.
 
-###Unsupervised Algorithm:
+### Unsupervised Algorithm:
 
 Anomaly Detection: Isolation Forest to identify outlier patient records that may represent a hidden high-risk group.
 
 Key Steps: The notebook includes detailed data cleaning for a complex dataset, engineering a binary target variable, and building separate pipelines for classification, regression, and anomaly detection tasks.
 
 
-#Technologies & Libraries
+# Technologies & Libraries
 
 Python 3.x
 
